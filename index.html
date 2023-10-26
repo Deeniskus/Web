@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee</title>
+  <link rel="stylesheet" href="css/main_page.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="js/main_page.js" defer></script>
+  <script src="js/afkAlert.js" defer></script>
+</head>
+
+
+<body>
+  <header class="header container">
+    <div class="header_content">
+      <img src="img/Logo.svg" alt="Logo" class="logo">
+      <ul class="header_text_container">
+        <li class="header_text_inactive">HOME</li>
+        <li class="header_text_inactive"><a href="#promotions">SERVICES</a></li>
+        <li class="header_text_inactive"><a href="#our_products">OUR PRODUCTS</a></li>
+        <li class="header_text_inactive">CONTACT</li>
+      </ul>
+      <div id="login_btn"class="login_container header_text_inactive">Login</div>
+
+    </div>
+    
+
+  </header>
+
+
+  <div id="login_form" class="login_form">
+    <div class="inner_form">
+      <p style="color:#ffffff;">Зарегистрироваться</p>
+      <input id="login_input" type="text" class="round_input" placeholder="Логин">
+      <input id="password_input" type="text" class="round_input" placeholder="Пароль">
+      <div style="justify-content: space-between; display:flex;">
+          <button id="sign_up">Регистрация</button>
+          <button id="cancel">Отмена</button>
+      </div>
+      <p id="result_p" class="result_p"></p>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="coffee_festival_section">
+
+      <div class="TD_large_container">
+        <p class="TD_large_title">COFFEE</p>
+        <p class="TD_large_title ">FESTIVAL</p>
+        <p class="TD_large_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut sem viverra aliquet eget sit amet tellus.</p>
+      </div>
+      <div class="coffee_festival_vl"></div>
+
+    </section>
+
+    <section id="promotions" class="promotions_section">
+      <div class="promotions_title">Promotions</div>
+      <div class="promotions_wrapper">
+        <div class="promotions_bg">
+          <div class="promotions_bg-first"></div>
+          <div class="promotions_bg-second"></div>
+        </div>
+        <div class="promotion_item">
+          <img src="img/Capuccino_day.jpg" alt="Capuccino_day">
+          <div class="promotion_item-title">LOREM IPSUM 1</div>
+          <div class="promotion_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+        </div>
+        <div class="promotion_item">
+          <img src="img/Desserts_day.jpg" alt="Capuccino_day">
+          <div class="promotion_item-title">LOREM IPSUM 1</div>
+          <div class="promotion_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+        </div>
+        <div class="promotion_item">
+          <img src="img/Ice_coffee.jpg" alt="Capuccino_day">
+          <div class="promotion_item-title">LOREM IPSUM 1</div>
+          <div class="promotion_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+        </div>
+      </div>
+ 
+    </section>
+
+    <section class="premium_coffee_section">
+      
+      
+      <div class="rectangle_dark_green" id="rectangle_dark_green_1">
+        <div class="TD_large_container" id="TD_large_container_1">
+          <div>
+            <p class="TD_large_title premium">PREMIUM</p>
+            <p class="TD_large_title">COFFEE</p>
+            <p class="TD_large_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut sem viverra aliquet eget sit amet tellus.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="matcha_latte_section">
+      <div class="rectangle_beige" id="rectangle_beige_1"></div>
+      <div class="TD_large_container" id="TD_large_container_2">
+        <p class="TD_large_title">MATCHA</p>
+        <p class="TD_large_title latte">LATTE</p>
+        <p class="TD_large_description" id="TD_large_description_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut sem viverra aliquet eget sit amet tellus.</p>
+      </div>
+
+    </section>
+
+    <section class="sweet_moments_section">
+      <img src="img/Sweet_moments.jpg" class="disapearing_photo">
+      <div class="rectangle_beige" id="rectangle_beige_2"></div>
+      <div class="rectangle_dark_green" id="rectangle_dark_green_2">
+        <div class="TD_large_container" id="TD_large_container_3">
+          <p class="TD_large_title sweet">Sweet</p>
+          <p class="TD_large_title moments">Moments</p>
+          <p class="TD_large_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut sem viverra aliquet eget sit amet tellus.</p>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <section class="weekend_discount_section">
+      
+      
+      <div class="rectangle_dark_green" id="rectangle_dark_green_3">
+        <div class="TD_large_container" id="TD_large_container_4">
+          <p class="TD_large_title weekend">WEEKEND</p>
+          <p class="TD_large_title discount">DISCOUNT</p>
+          <p class="TD_large_description">Or eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum </p>
+        </div>
+      </div>
+      <div class="rectangle_beige" id="rectangle_beige_2"></div>
+      <img src="img/Weekend_discount.jpg" class="disapearing_photo">
+
+    </section>
+
+    <section id="our_products" class="prices_section_1">
+      <img src="img/Prices_1.jpg" class="prices_section_img">
+      
+      <div class="rectangle_dark_green" id="rectangle_dark_green_4">
+        <div class="prices_vl"></div>
+        <div class="TD_large_container" id="TD_large_container_5">
+            <p class="prices_title">COFFEE</p>
+            <div class="prices_normal_container" >
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+            </div>
+            <div class="prices_normal_container" >
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+            </div>
+            <div class="prices_normal_container" >
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </section>
+
+    <section class="prices_section_2">
+      
+      <div class="rectangle_beige" id="rectangle_beige_5">
+        <div class="TD_large_container" id="TD_large_container_6">
+          <div>
+            <p class="prices_title special_coffee">SPECIAL COFFEE</p>
+            <div class="prices_normal_container">
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+            </div>
+            <div class="prices_normal_container">
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+            </div>
+            <div class="prices_normal_container">
+              <p class="prices_name_price">Food Name Here  $00.00</p>
+              <p class="prices_description">This is Photoshop's version of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="prices_vl" id="prices_vl_2"></div>
+      </div>
+
+      <img class="prices_section_img" src="img/Prices_2.jpg">
+
+
+    </section>
+
+  </main>
+</body>
+
+</html>
