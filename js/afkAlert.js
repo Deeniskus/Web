@@ -11,3 +11,7 @@ afkAlert()
 addEventListener("mousemove", (event) => {
     seconds = 0
 });
+
+addEventListener("touchmove", (event) => {
+    seconds = 0
+});
